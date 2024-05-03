@@ -2,4 +2,10 @@
     display: flex;
     list-style: none;
     gap: 30px;
+
+}
+.menu li{
+    background-color: rgb(206, 255, 239);
+    border: 1px solid black;
+    border-radius: 10px;
 }
