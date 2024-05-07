@@ -18,7 +18,7 @@ export const Menu = () => {
                     <Link to="/redirect">Redirect</Link>
                 </li>
                 <li>
-                    <Link to="/apihome">Api</Link>
+                    <Link to="/apihome">Api Home</Link>
                 </li>
             </ul>
         </nav>
