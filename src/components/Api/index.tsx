@@ -31,7 +31,7 @@ export class ApiHome extends Component {
         {this.state.carregando ? <p>Carregando...</p> : <p>Dados carregados!</p>}
         <ul>
           {this.state.dados.map(item => {
-            if (item.title === 'delectus aut autem') {
+            if (item.title === 'teste') {
               return <li key={item.id}>{item.title}</li>;
             } else {
               return null; // Retorna null para os itens que não atendem à condição
