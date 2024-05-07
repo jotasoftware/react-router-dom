@@ -7,6 +7,7 @@ import { Posts } from './components/Posts/index'
 import { Post } from './components/Post/index'
 import { Redirect } from './components/Redirect/index'
 import { NotFound } from './components/NotFound/index'
+import { ApiHome } from './components/Api/index';
 import './styles/global.css'
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         </Route>
 
         <Route path='/redirect' element={<Redirect />} />
+        <Route path='/apihome' element={<ApiHome />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
